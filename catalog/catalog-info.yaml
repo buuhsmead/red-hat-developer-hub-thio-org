@@ -2,10 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: org-data
+  title: THIO Organization Data
 spec:
   # https://github.com/redhat-developer/rhdh/blob/main/catalog-entities/all.yaml
   # https://github.com/RedHatQuickCourses/devhub-qc-apps/blob/main/catalog/catalog-info.yaml
   targets:
-    - ./thio-organization.yaml
-    - ./apicuro-api.yaml
+    - thio-organization.yaml
+    - apicuro-api.yaml
   owner: thio-org
+
