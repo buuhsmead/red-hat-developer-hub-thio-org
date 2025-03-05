@@ -4,7 +4,8 @@ metadata:
   name: org-data
 spec:
   # https://github.com/redhat-developer/rhdh/blob/main/catalog-entities/all.yaml
+  # https://github.com/RedHatQuickCourses/devhub-qc-apps/blob/main/catalog/catalog-info.yaml
   targets:
     - ./thio-organization.yaml
     - ./apicuro-api.yaml
-
+  owner: thio-org
