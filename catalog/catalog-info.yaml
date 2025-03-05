@@ -9,6 +9,7 @@ spec:
   targets:
     - thio-organization.yaml
     - thio-system.yaml
+    - quarkusapp-system.yaml
     - apicuro-api.yaml
   owner: group:default/thio-org
 

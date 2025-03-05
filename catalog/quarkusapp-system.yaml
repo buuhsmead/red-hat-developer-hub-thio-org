@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: thio-system
-  title: THIO System
-  description: The THIO org system
+  name: quarkusapp
+  title: Quarkus System
+  description: The Quarkus system
 spec:
   owner: group:default/thio-org
