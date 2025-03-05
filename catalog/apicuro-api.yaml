@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: echo-messages-api
-  description: The Echo Messages API
+  description: The Echo Messages API II
 spec:
   type: openapi
   lifecycle: production
