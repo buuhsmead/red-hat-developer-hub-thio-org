@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: echo-messages-api
+  description: The Echo Messages API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: thio-org@example.com
+  definition:
+    $text: http://example-apicurioregistry-kafkasql.apicurio-registry-operator.router-default.apps.west.jgmpn.gcp.redhatworkshops.io/ui/artifacts/rhdh-dev/openapi/versions/latest

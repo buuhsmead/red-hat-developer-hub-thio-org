@@ -1,0 +1,7 @@
+site_name: 'THIO Org documentation'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core

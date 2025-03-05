@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: THIO Org
+  description: The THIO organization
+  annotations:
+    backstage.io/kubernetes-id: thio-org
+    backstage.io/techdocs-ref: dir:..
+spec:
+  type: organization
+  lifecycle: production
+  system: thio-org-system
+  profile:
+    displayName: THIO organization
+  children: []
