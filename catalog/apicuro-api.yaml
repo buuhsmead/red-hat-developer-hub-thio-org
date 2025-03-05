@@ -6,7 +6,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: thio-org@example.com
+  owner: group:default/thio.org
   system: thio-system
   definition:
     $text: 'http://example-apicurioregistry-kafkasql.apicurio-registry-operator.router-default.apps.west.jgmpn.gcp.redhatworkshops.io/ui/artifacts/rhdh-dev/openapi/versions/latest#:~:text=Documentation-,Content,-References'
