@@ -9,6 +9,7 @@ metadata:
 spec:
   type: organization
   lifecycle: production
+  owner: group:default/thio-org
   system: thio-org-system
   profile:
     displayName: THIO organization

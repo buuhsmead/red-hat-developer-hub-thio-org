@@ -9,5 +9,5 @@ spec:
   targets:
     - thio-organization.yaml
     - apicuro-api.yaml
-  owner: thio-org
+  owner:  group:default/thio-org
 
