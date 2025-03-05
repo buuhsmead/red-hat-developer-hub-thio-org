@@ -8,6 +8,7 @@ spec:
   # https://github.com/RedHatQuickCourses/devhub-qc-apps/blob/main/catalog/catalog-info.yaml
   targets:
     - thio-organization.yaml
+    - thio-system.yaml
     - apicuro-api.yaml
-  owner:  group:default/thio-org
+  owner: group:default/thio-org
 
