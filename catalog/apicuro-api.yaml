@@ -11,5 +11,4 @@ spec:
   provideApis: component:default/quarkus-cicd
   definition:
     $text: https://petstore.swagger.io/v2/swagger.json
-
     #http://example-apicurioregistry-kafkasql.apicurio-registry-operator.router-default.apps.west.jgmpn.gcp.redhatworkshops.io/apis/registry/v2/groups/rhdh-dev/artifacts/openapi
