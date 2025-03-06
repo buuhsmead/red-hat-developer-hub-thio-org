@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: thio-org
-  description: The THIO organization
+  description: The THIO organization II
   annotations:
     backstage.io/kubernetes-id: thio-org
     backstage.io/techdocs-ref: dir:..
