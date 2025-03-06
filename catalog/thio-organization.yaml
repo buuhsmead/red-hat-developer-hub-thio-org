@@ -7,7 +7,7 @@ metadata:
     backstage.io/kubernetes-id: thio-org
     backstage.io/techdocs-ref: dir:..
 spec:
-  type: organization
+  type: 
   lifecycle: production
   owner: group:default/thio-org
   system: thio-org-system
