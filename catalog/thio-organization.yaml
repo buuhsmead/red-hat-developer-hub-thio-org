@@ -2,12 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: thio-org
-  description: The THIO organization
+  description: The THIO organization III
   annotations:
     backstage.io/kubernetes-id: thio-org
     backstage.io/techdocs-ref: dir:..
 spec:
-  type: 'organization'
+  type: organization
   lifecycle: production
   owner: group:default/thio-org
   system: thio-org-system
