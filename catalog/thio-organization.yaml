@@ -11,6 +11,7 @@ spec:
   lifecycle: production
   owner: group:default/thio-org
   system: thio-org-system
+  email: buuhsmead@example.com
   profile:
     displayName: THIO organization
   children: []
