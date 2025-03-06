@@ -11,5 +11,7 @@ spec:
     - thio-system.yaml
     - quarkusapp-system.yaml
     - apicuro-api.yaml
+    - quarkusapp-dev-team.yaml
+    - frontend-team.yaml
   owner: group:default/thio-org
 

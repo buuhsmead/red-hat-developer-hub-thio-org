@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: quarkusapp-dev-team
+  description: Quarkus App Dev team
+  annotations:
+    backstage.io/kubernetes-id: quarkusapp-dev-team
+    backstage.io/techdocs-ref: dir:..
+  tags:
+    - team
+    - java
+    - quarkus
+spec:
+  type: group
+  lifecycle: production
+  owner: group:default/thio-org
+  system: thio-org-system
+  profile:
+    displayName: Quarkus App team
+  children: []
+

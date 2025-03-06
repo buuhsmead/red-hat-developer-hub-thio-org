@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: frontend-team
+  description: Frontend Dev team
+  annotations:
+    backstage.io/kubernetes-id: frontend-team
+    backstage.io/techdocs-ref: dir:..
+  tags:
+    - team
+    - frontend
+spec:
+  type: group
+  lifecycle: production
+  owner: group:default/thio-org
+  system: thio-org-system
+  profile:
+    displayName: Frontend team
+  children: []
+
